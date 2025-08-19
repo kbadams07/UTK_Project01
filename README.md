@@ -1,7 +1,7 @@
 # Project 01
 
 ## Author
-Your Name
+Kennedy Adams
 
 ## Overview
 This is an informational website for Project 01. It includes a home page, team page, and contact form.
@@ -19,7 +19,7 @@ This is an informational website for Project 01. It includes a home page, team p
 ## Future Improvements
 1. Add more team member details.
 2. Integrate Formspree for contact form submissions.
-3. Add a gallery page.
+3. Add a individual bio pages for team members linked from photos in grid.
 
 ## Hosting
-[GitHub Pages Link](https://yourusername.github.io/your-repo-name/)
+[GitHub Pages Link](https://github.com/kbadams07/UTK_Project01)
