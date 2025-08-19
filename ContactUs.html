@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 01 - Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Company Logo" class="logo">
+    </div>
+    <div class="nav">
+        <a href="Home.html">HOME</a>
+        <a href="OurTeam.html">Our Team</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="https://formspree.io/f/mblkenqr" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">Email Address: <span class="required">(required)</span></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message: <span class="required">(required)</span></label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
